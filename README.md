@@ -1,12 +1,64 @@
-# React + Vite
+# 🔥 FLAMES Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive **FLAMES game** built with **React**. Find out your relationship compatibility with friends, crushes, or partners in a playful way!
 
-Currently, two official plugins are available:
+## 📝 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Interactive UI** built with React
+* **Fun FLAMES algorithm** to calculate relationship types:
 
-## Expanding the ESLint configuration
+  * Friends
+  * Lovers
+  * Affectionate
+  * Marriage
+  * Enemies
+  * Siblings
+* Responsive design for **desktop and mobile**
+* Quick input with instant results
+* Clean and modern **React component structure**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚡ Technologies Used
+
+* **React** – Frontend library
+* **CSS** – Styling
+* **Vite / Create React App** – Project setup
+* **React Router**
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/flames-game.git
+cd flames-game
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view in your browser.
+
+## 🛠 How It Works
+
+1. Enter two names in the input fields.
+2. Click **Submit**.
+3. The FLAMES algorithm calculates and shows your relationship result.
+
+The algorithm removes common letters between the two names, counts the remaining letters, and cycles through the letters in “FLAMES” to determine the result.
+
+## 🌟 Contributing
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a pull request
